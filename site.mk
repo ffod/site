@@ -34,5 +34,11 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
+GLUON_BRANCH ?= experimental
+export GLUON_BRANCH
+
+GLUON_TARGET ?= ar71xx-generic
+export GLUON_TARGET
+
 # Languages to include
 GLUON_LANGS ?= en de
