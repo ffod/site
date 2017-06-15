@@ -118,10 +118,12 @@ endif
 
 DEFAULT_GLUON_RELEASE := 2017.1+exp$(shell date '+%Y%m%d')
 
-#GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+#GLUON_RELEASE ?= 2017.1
 
 GLUON_BRANCH ?= experimental
+#GLUON_BRANCH ?= beta
+#GLUON_BRANCH ?= stable
 export GLUON_BRANCH
 
 # Default priority for updates.
